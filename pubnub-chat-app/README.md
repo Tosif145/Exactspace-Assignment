@@ -1,3 +1,35 @@
+
+# Chat Project
+
+This project is a real-time chat application built using React and PubNub. It allows users to join different chat channels, send messages, and receive messages in real-time. Here's a breakdown of its key features:
+
+## Features:
+
+1. **Real-time Messaging:** Messages are sent and received in real-time, providing a seamless chat experience.
+2. **Channel Management:** Users can create new chat channels, join existing ones, and remove channels they no longer wish to participate in.
+3. **User Presence:** The application displays the presence of users in each channel, indicating who is currently online.
+4. **Emoji Support:** Users can express themselves using emojis, enhancing the chat experience.
+5. **Message History:** Chat history is preserved, allowing users to scroll back and view previous messages.
+
+## Technologies Used:
+
+- **React:** The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+- **PubNub:** PubNub is used for real-time messaging, providing the infrastructure to send and receive messages instantly.
+- **useSound:** The useSound library is utilized to play notification sounds when new messages are received or sent.
+- **CSS:** CSS is used for styling the user interface, providing a visually appealing chat experience.
+
+## Screenshot
+![UI](src/PubNubChat/assets/chat-app.png)
+
+## Getting Started:
+
+To run the project locally, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +71,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
